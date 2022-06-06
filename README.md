@@ -21,7 +21,7 @@
 >"Number of pets": 5,  
 >"Future desired salary": 120000  
 >}  
->CTRL+D
+>CTRL+C
 11. Отправить изменения на внешний репозиторий.
 >git add . ; git commit -m "changes json file" ; git push
 12. Создать файл preferences.json
@@ -35,13 +35,13 @@
 >"Favorite time of year": "Лето",  
 >"Country to which. would like to visit": "Не знаю"  
 >}  
->CTRL+D
+>CTRL+C
 14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 >cat >>  skills.json  
 >{  
 >"Skills": "Linux, Bash, Git, GitHub, API, HTTP/HTTPS, Web testing, Mobile testing, Proxy, VPN, SQL, JMeter"  
 >}  
->CTRL+D
+>CTRL+C
 15. Отправить сразу 2 файла на внешний репозиторий.
 >git add . ; git commit -m "add two files" ; git push
 16. На веб интерфейсе создать файл bug_report.json.
